@@ -1,7 +1,0 @@
-Data Exploration: 
-
-- there are 1494 images of the three categories in training data.
-- there are 166 images of three categories in testing data.
-- All the images are RGB except masks which contains segments of images that are forged.
-- Multiple dimensions are present but many images are having the dimensions (256,384) and (384,256).
-!! planning to convert (384,256) to (256,384) to increase images in that dimensions and have to think about other dimensional images.
