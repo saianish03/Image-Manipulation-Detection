@@ -18,8 +18,8 @@ The image and its corresponding masks are having the same file names.
 - The dataset has equal balance of copy-moved, spliced and authentic images (1494 images)
 - Multiple dimensions of images: (256,384,3), (384, 256, 3), (600, 800, 3), etc. 
 - More number of images are having the shape: (256, 384, 3)
-- Masks are also same. The masks are all grayscale/binary. Few of them are 3D and 2D. All the masks are converted to 2D.
-- In traindev data, specifically in copy-moved and spliced: Two images(1 copy-moved, 1 spliced) and their masks are having opposite dimensions. (copy-moved: c_1318 and spliced: s_0692)
+- Masks are also same. The masks are all grayscale/binary. Few of them are 3D and 2D. All the masks are converted to 2D (binary).
+- In traindev data, specifically in copy-moved and spliced: Two images and their masks are having opposite dimensions. (copy-moved: c_1318 and spliced: s_0692)
 - In test data, in copy-moved: One image and its mask is having opposite dimensions. (copy-moved: c_0041)
 - Rotating these images fixed the mismatched dimensions.
 
@@ -37,6 +37,7 @@ The image and its corresponding masks are having the same file names.
 - Using this approach, for binary classification (manipulated or not), the model gave a **75% training accuracy** and **66% testing accuracy**. 
 - This can be improved by data-augumentation, better fine-tuning and using more image manipulation techniques. Due to hardware-constraints, this was the best score that was achieved by this approach.
 - Also used EfficientNetV2B0 which yielded **72.2% training accuracy** and **72.5% testing accuracy**.
+- Using VGGNet19 also gave similar results.
 
 ### Other approaches:
 - Tried implementing MVSS_Net mentioned in the references, to create masks from the images and masks provided, and find out the accuracy using dice coefficient. But the code provided by the authors did not have a training feature to train our images.
