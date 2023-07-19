@@ -1,0 +1,11 @@
+1. https://towardsdatascience.com/image-forgery-detection-2ee6f1a65442
+2. https://ieeexplore.ieee.org/abstract/document/4806202
+3. https://ieeexplore.ieee.org/abstract/document/7823911
+4. https://image-net.org/challenges/LSVRC/2012/index
+5. https://www.mdpi.com/2079-9292/11/3/403
+6. https://arxiv.org/pdf/2210.12752.pdf
+7. https://ieeexplore.ieee.org/document/9789576/
+8. https://towardsdatascience.com/how-accurate-is-image-segmentation-dd448f896388
+9. https://thesai.org/Downloads/Volume12No7/Paper_29-Copy_Move_Forgery_Detection.pdf
+10. https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://openaccess.thecvf.com/content_ECCV_2018/papers/Rex_Yue_Wu_BusterNet_Detecting_Copy-Move_ECCV_2018_paper.pdf&ved=2ahUKEwjxss2OgpaAAxX2-zgGHd4yBnIQFnoECBwQAQ&usg=AOvVaw25mQpib88f48L745asWSkZ
+11. https://chat.openai.com
