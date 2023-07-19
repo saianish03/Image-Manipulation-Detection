@@ -40,3 +40,6 @@ The image and its corresponding masks are having the same file names.
 ### Other approaches:
 - Tried implementing MVSS_Net mentioned in the references, to create masks from the images and masks provided, and find out the accuracy using dice coefficient. But the code provided by the authors did not have a training feature to train our images.
 - Tried implementing BusterNet mentioned in references, didn't yield good results.
+
+### For testing the holdout dataset:
+- Check the README.md in holdout_testing folder.
