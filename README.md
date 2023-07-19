@@ -7,4 +7,4 @@ The approach used here is to sample the forged image around the forged region by
 More precisely, 'Transfer Learning' was used here to take the advantage of pre-trained models such as VGGNet, ResNet, etc. and fine-tune these models acc. to the given task.
 In this approach, 'ResNet50' was used to detect the manipulated images and the final layers were added and trained using the extracted features from the training data. 
 
-This approach gave a 75% training accuracy and 66% testing accuracy. This can be improved by data-augumentation, better fine-tuning and using more image manipulation techniques. Due to hardware-constraints, this was the best score that was achieved by this approach.
+Using this approach, for binary classification (manipulated or not), the modelgave a 75% training accuracy and 66% testing accuracy. This can be improved by data-augumentation, better fine-tuning and using more image manipulation techniques. Due to hardware-constraints, this was the best score that was achieved by this approach.
