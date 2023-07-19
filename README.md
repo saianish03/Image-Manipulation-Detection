@@ -37,6 +37,7 @@ The image and its corresponding masks are having the same file names.
 - Using this approach, for binary classification (manipulated or not), the model gave a **75% training accuracy** and **66% testing accuracy**. 
 - This can be improved by data-augumentation, better fine-tuning and using more image manipulation techniques. Due to hardware-constraints, this was the best score that was achieved by this approach.
 - Also used EfficientNetV2B0 which yielded **72.2% training accuracy** and **72.5% testing accuracy**.
+- Using VGGNet19 also gave similar results.
 
 ### Other approaches:
 - Tried implementing MVSS_Net mentioned in the references, to create masks from the images and masks provided, and find out the accuracy using dice coefficient. But the code provided by the authors did not have a training feature to train our images.
