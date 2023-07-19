@@ -18,7 +18,7 @@ The image and its corresponding masks are having the same file names.
 - The dataset has equal balance of copy-moved, spliced and authentic images (1494 images)
 - Multiple dimensions of images: (256,384,3), (384, 256, 3), (600, 800, 3), etc. 
 - More number of images are having the shape: (256, 384, 3)
-- Masks are also same. The masks are all grayscale/binary. Few of them are 3D and 2D. All the masks are converted to 2D.
+- Masks are also same. The masks are all grayscale/binary. Few of them are 3D and 2D. All the masks are converted to 2D (binary).
 - In traindev data, specifically in copy-moved and spliced: Two images(1 copy-moved, 1 spliced) and their masks are having opposite dimensions. (copy-moved: c_1318 and spliced: s_0692)
 - In test data, in copy-moved: One image and its mask is having opposite dimensions. (copy-moved: c_0041)
 - Rotating these images fixed the mismatched dimensions.
