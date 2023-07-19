@@ -3,6 +3,8 @@
 
 **The given task is to detect image manipulation in the given set of images which contains authentic(unforged) and forged(copy-moved, spliced) images.**
 
+!! traindev and test data not provided in github repo. Download from 'assignment.pdf'
+
 ### Data Exploration and Preparation:
 
 There are two folders: traindev and test. Each of them contains 3 classes of images: authentic, copy-moved and spliced. copy-moved and spliced has two folders: images and masks. Masks are the segments of the images which highlights the forged region.
