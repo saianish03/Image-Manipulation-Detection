@@ -14,7 +14,7 @@ Types of image extensions:
 
 The image and its corresponding masks are having the same file names.
 
-**Observations:**
+**Observations:** (Check data_exploration_and_preparation.ipynb for more clarity)
 - The dataset has equal balance of copy-moved, spliced and authentic images (1494 images)
 - Multiple dimensions of images: (256,384,3), (384, 256, 3), (600, 800, 3), etc. 
 - More number of images are having the shape: (256, 384, 3)
