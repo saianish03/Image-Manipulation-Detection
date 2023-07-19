@@ -24,7 +24,6 @@ The image and its corresponding masks are having the same file names.
 - Rotating these images fixed the mismatched dimensions.
 
 ### Feature Extraction:
-
 - The approach used here is to sample the forged image around the forged region by comparing with it's respective mask and get multiple samples of size 64x64x3. 
 - These would be considered as the main features of the image which can be used to train a Deep Learning Model such as a CNN.
 - Using this sampling method, aprroximately 8 to 10 samples were generated per image.
