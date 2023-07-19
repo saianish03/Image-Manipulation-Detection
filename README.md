@@ -3,7 +3,7 @@
 
 **The given task is to detect image manipulation in the given set of images which contains authentic(unforged) and forged(copy-moved, spliced) images.**
 
-!! traindev and test data not provided in github repo. Download from 'assignment.pdf'
+!! traindev and test data not provided in github repo. Download from the link in 'assignment.pdf'
 
 ### Data Exploration and Preparation:
 
