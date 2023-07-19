@@ -1,7 +1,7 @@
 # Image-Manipulation-Detection
 ## SpoofSense.ai task
 
-** The given task is to detect image manipulation in the given set of images which contains authentic(unforged) and forged(copy-moved, spliced) images. **
+**The given task is to detect image manipulation in the given set of images which contains authentic(unforged) and forged(copy-moved, spliced) images.**
 
 ### Data Exploration and Preparation:
 
@@ -14,7 +14,7 @@ Types of image extensions:
 
 The image and its corresponding masks are having the same file names.
 
-** Observations: **
+**Observations:**
 - The dataset has equal balance of copy-moved, spliced and authentic images (1494 images)
 - Multiple dimensions of images: (256,384,3), (384, 256, 3), (600, 800, 3), etc. 
 - More number of images are having the shape: (256, 384, 3)
