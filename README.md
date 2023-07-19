@@ -1,7 +1,7 @@
 # Image-Manipulation-Detection
 ## SpoofSense.ai task
 
-** The given task is to detect image manipulation in the given set of images which contains authentic(unforged) and forged(copy-moved, spliced) images. **
+**The given task is to detect image manipulation in the given set of images which contains authentic(unforged) and forged(copy-moved, spliced) images.**
 
 ### Data Exploration and Preparation:
 
@@ -14,7 +14,7 @@ Types of image extensions:
 
 The image and its corresponding masks are having the same file names.
 
-** Observations: **
+**Observations:**
 - The dataset has equal balance of copy-moved, spliced and authentic images (1494 images)
 - Multiple dimensions of images: (256,384,3), (384, 256, 3), (600, 800, 3), etc. 
 - More number of images are having the shape: (256, 384, 3)
@@ -24,7 +24,6 @@ The image and its corresponding masks are having the same file names.
 - Rotating these images fixed the mismatched dimensions.
 
 ### Feature Extraction:
-
 - The approach used here is to sample the forged image around the forged region by comparing with it's respective mask and get multiple samples of size 64x64x3. 
 - These would be considered as the main features of the image which can be used to train a Deep Learning Model such as a CNN.
 - Using this sampling method, aprroximately 8 to 10 samples were generated per image.
@@ -35,9 +34,8 @@ The image and its corresponding masks are having the same file names.
 ### Model Training:
 - 'Transfer Learning' was used here to take the advantage of pre-trained models such as VGGNet, ResNet, etc. and fine-tune these models acc. to the given task.
 - In this approach, 'ResNet50' was used to detect the manipulated images and the final layers were added and trained using the extracted features from the training data. 
-- Using this approach, for binary classification (manipulated or not), the model gave a 75% training accuracy and 66% testing accuracy. 
+- Using this approach, for binary classification (manipulated or not), the model gave a **75% training accuracy** and **66% testing accuracy**. 
 - This can be improved by data-augumentation, better fine-tuning and using more image manipulation techniques. Due to hardware-constraints, this was the best score that was achieved by this approach.
-
 
 ### Other approaches:
 - Tried implementing MVSS_Net mentioned in the references, to create masks from the images and masks provided, and find out the accuracy using dice coefficient. But the code provided by the authors did not have a training feature to train our images.
